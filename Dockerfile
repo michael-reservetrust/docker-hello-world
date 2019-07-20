@@ -7,8 +7,8 @@ COPY Makefile *.go ./
 RUN apk update && \
 	apk upgrade && \
 	apk add \
-		git \
-		make && \
+    alpine-sdk \
+  && \
 	make all
 
 FROM scratch
