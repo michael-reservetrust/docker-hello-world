@@ -12,4 +12,5 @@ lint:
 deps:
 	go get -d
 	go get github.com/stretchr/testify
+	go get golang.org/x/lint/golint
 	go get github.com/golang/lint/golint
